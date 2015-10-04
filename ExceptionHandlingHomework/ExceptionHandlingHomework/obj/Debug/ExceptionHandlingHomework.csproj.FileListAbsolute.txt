@@ -1,0 +1,6 @@
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\ExceptionHandlingHomework\bin\Debug\ExceptionHandlingHomework.exe.config
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\ExceptionHandlingHomework\bin\Debug\ExceptionHandlingHomework.exe
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\ExceptionHandlingHomework\bin\Debug\ExceptionHandlingHomework.pdb
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\ExceptionHandlingHomework\obj\Debug\ExceptionHandlingHomework.csprojResolveAssemblyReference.cache
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\ExceptionHandlingHomework\obj\Debug\ExceptionHandlingHomework.exe
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\ExceptionHandlingHomework\obj\Debug\ExceptionHandlingHomework.pdb

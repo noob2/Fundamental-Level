@@ -1,0 +1,9 @@
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\StaticMembersAndNamespaces\bin\Debug\StaticMembersAndNamespaces.exe.config
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\StaticMembersAndNamespaces\bin\Debug\StaticMembersAndNamespaces.exe
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\StaticMembersAndNamespaces\bin\Debug\StaticMembersAndNamespaces.pdb
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\StaticMembersAndNamespaces\obj\Debug\Excersise.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\StaticMembersAndNamespaces\obj\Debug\StaticMembersAndNamespaces.exe
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\StaticMembersAndNamespaces\obj\Debug\StaticMembersAndNamespaces.pdb
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\StaticMembersAndNamespaces\bin\Debug\StaticMembersAndNamespaces.exe.config
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\StaticMembersAndNamespaces\obj\Debug\StaticMembersAndNamespaces.exe
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\StaticMembersAndNamespaces\obj\Debug\StaticMembersAndNamespaces.pdb

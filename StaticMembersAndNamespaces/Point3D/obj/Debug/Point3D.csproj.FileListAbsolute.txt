@@ -1,0 +1,12 @@
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\Point3D\bin\Debug\Point3D.exe.config
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\Point3D\bin\Debug\Point3D.exe
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\Point3D\bin\Debug\Point3D.pdb
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\Point3D\obj\Debug\Point3D.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\Point3D\obj\Debug\Point3D.exe
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\Point3D\obj\Debug\Point3D.pdb
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Point3D\bin\Debug\Point3D.exe.config
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Point3D\obj\Debug\Point3D.exe
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Point3D\obj\Debug\Point3D.pdb
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Point3D\bin\Debug\Point3D.exe
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Point3D\bin\Debug\Point3D.pdb
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Point3D\obj\Debug\Point3D.csprojResolveAssemblyReference.cache

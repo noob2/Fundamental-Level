@@ -1,0 +1,6 @@
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ValidPerson.csprojResolveAssemblyReference.cache
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.exe
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.pdb

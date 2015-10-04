@@ -1,0 +1,6 @@
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\EnterNumbers\bin\Debug\EnterNumbers.exe.config
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\EnterNumbers\bin\Debug\EnterNumbers.exe
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\EnterNumbers\bin\Debug\EnterNumbers.pdb
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\EnterNumbers\obj\Debug\EnterNumbers.csprojResolveAssemblyReference.cache
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\EnterNumbers\obj\Debug\EnterNumbers.exe
+c:\users\viktor\documents\visual studio 2015\Projects\ExceptionHandlingHomework\EnterNumbers\obj\Debug\EnterNumbers.pdb

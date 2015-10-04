@@ -1,0 +1,2 @@
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Paths\bin\Debug\Paths.exe.config
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\Paths\bin\Debug\Paths.exe.config

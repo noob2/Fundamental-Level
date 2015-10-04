@@ -1,0 +1,11 @@
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Distance Calculator\bin\Debug\Distance Calculator.exe.config
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Distance Calculator\obj\Debug\Distance Calculator.csprojResolveAssemblyReference.cache
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Distance Calculator\bin\Debug\Distance Calculator.exe
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Distance Calculator\bin\Debug\Distance Calculator.pdb
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Distance Calculator\bin\Debug\Point3D.exe
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Distance Calculator\bin\Debug\Point3D.pdb
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Distance Calculator\obj\Debug\Distance Calculator.exe
+C:\Users\jo_jo\Desktop\StaticMembersAndNamespaces\Distance Calculator\obj\Debug\Distance Calculator.pdb
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\Distance Calculator\bin\Debug\Distance Calculator.exe.config
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\Distance Calculator\obj\Debug\Distance Calculator.exe
+C:\Users\Viktor\Documents\Visual Studio 2015\Projects\StaticMembersAndNamespaces\Distance Calculator\obj\Debug\Distance Calculator.pdb
