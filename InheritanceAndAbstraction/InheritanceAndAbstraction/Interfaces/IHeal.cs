@@ -1,8 +1,8 @@
-﻿using Characters;
+﻿using InheritanceAndAbstraction.Characters;
 
 namespace InheritanceAndAbstraction.Interfaces
 {
-    interface IHeal
+    public interface IHeal
     {
         void Heal(Character target);
     }

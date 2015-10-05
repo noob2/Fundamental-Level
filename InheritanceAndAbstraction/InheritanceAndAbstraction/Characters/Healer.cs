@@ -17,7 +17,14 @@ namespace InheritanceAndAbstraction.Characters
         public override void Attack(Character target)
         {
             this.Mana -= 100;
-            target.Health -= 2 * this.Damage;
+            target.Health -= this.Damage;
+            this.Health += this.Damage / 10;
+        }
+
+        public void Heal(Character target)
+        {
+            this.Mana -= 100;
+            target.Health += 150;
         }
     }
 }
