@@ -1,6 +1,0 @@
-c:\users\viktor\documents\visual studio 2015\Projects\InheritanceEx1BookShop\InheritanceEx1BookShop\bin\Debug\InheritanceEx1BookShop.exe.config
-c:\users\viktor\documents\visual studio 2015\Projects\InheritanceEx1BookShop\InheritanceEx1BookShop\bin\Debug\InheritanceEx1BookShop.exe
-c:\users\viktor\documents\visual studio 2015\Projects\InheritanceEx1BookShop\InheritanceEx1BookShop\bin\Debug\InheritanceEx1BookShop.pdb
-c:\users\viktor\documents\visual studio 2015\Projects\InheritanceEx1BookShop\InheritanceEx1BookShop\obj\Debug\InheritanceEx1BookShop.csprojResolveAssemblyReference.cache
-c:\users\viktor\documents\visual studio 2015\Projects\InheritanceEx1BookShop\InheritanceEx1BookShop\obj\Debug\InheritanceEx1BookShop.exe
-c:\users\viktor\documents\visual studio 2015\Projects\InheritanceEx1BookShop\InheritanceEx1BookShop\obj\Debug\InheritanceEx1BookShop.pdb
