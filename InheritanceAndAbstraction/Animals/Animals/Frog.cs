@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Animals.Animals
 {
-    class Frog : Animal
+    class Frog : Animal, ISoundProducible
     {
         private string colour;
 
@@ -29,6 +29,11 @@ namespace Animals.Animals
         public Frog(string name, int age, string gender, string colour) : base(name, age, gender)
         {
             this.Colour = colour;
+        }
+
+        public void ProduceSound()
+        {
+            Console.WriteLine("Ribip");
         }
     }
 }

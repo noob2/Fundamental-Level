@@ -6,12 +6,17 @@ using System.Threading.Tasks;
 
 namespace Animals.Animals
 {
-    class Kitten : Cat
+    class Kitten : Cat, ISoundProducible
     {
         private const string kittenGenger = "female";
         public Kitten(string name, int age, string breed) : base(name, age, kittenGenger, breed)
         {
 
+        }
+
+        public void ProduceSound()
+        {
+            Console.WriteLine("Miu");
         }
     }
 }

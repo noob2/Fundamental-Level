@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Animals.Animals
 {
-    class Dog : Animal
+    class Dog : Animal, ISoundProducible
     {
         public Dog(string name, int age, string gender, string breed)
             : base(name, age, gender)
@@ -32,6 +32,9 @@ namespace Animals.Animals
             }
         }
 
-        
+        public void ProduceSound()
+        {
+            Console.WriteLine("Bau");
+        }
     }
 }
