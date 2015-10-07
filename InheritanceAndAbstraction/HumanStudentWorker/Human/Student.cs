@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace HumanStudentWorker.Student
+namespace HumanStudentWorker.Human
 {
-    class Student : Human.Human , IComparable<Student>
+    class Student : Human , IComparable<Student>
     {
         private string facultyNumber;
 

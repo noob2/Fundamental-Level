@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace HumanStudentWorker.Worker
+namespace HumanStudentWorker.Human
 {
-    class Worker : Human.Human , IComparable<Worker>
+    class Worker : Human , IComparable<Worker>
     {
         private double workHoursPerDay;
 
