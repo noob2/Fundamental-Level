@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationAndPolymorphysm", "EncapsulationAndPolymorphysm\EncapsulationAndPolymorphysm.csproj", "{C8F775FA-8AEC-401B-93D3-714406FCD4F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "EncapsulationAndPolymorphysm\Shapes.csproj", "{C8F775FA-8AEC-401B-93D3-714406FCD4F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOfKurtovo", "BankOfKurtovo\BankOfKurtovo.csproj", "{B71A9076-BBA0-4131-A221-193E4D7BF76A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C8F775FA-8AEC-401B-93D3-714406FCD4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8F775FA-8AEC-401B-93D3-714406FCD4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8F775FA-8AEC-401B-93D3-714406FCD4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71A9076-BBA0-4131-A221-193E4D7BF76A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71A9076-BBA0-4131-A221-193E4D7BF76A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71A9076-BBA0-4131-A221-193E4D7BF76A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71A9076-BBA0-4131-A221-193E4D7BF76A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
