@@ -5,10 +5,23 @@ namespace Exercise
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            List<int> collection = new List<int> { 1, 3, 5, 6, 7, 8, 3, 8, 0, 6, 4 };
-            collection.ForEach(Console.Write);
+            var acc1 = new InterestCalculator(500, 5.6, 10, CompoundInterest);
+            var acc2 = new InterestCalculator(2500, 7.2, 15, SimpleInterest);
+
+            Console.WriteLine(acc1.CalculateInterest);
+            Console.WriteLine(acc2.CalculateInterest);
+        }
+
+        public static double SimpleInterest(double sum, double interest, int years)
+        {
+            return sum * (1 + (interest / 100 * years));
+        }
+
+        public static double CompoundInterest(double sum, double interest, int years)
+        {
+            return sum * (double)Math.Pow((double)(1 + (interest / 100 / 12)), years * 12);
         }
     }
 }

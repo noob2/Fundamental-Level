@@ -8,7 +8,7 @@ namespace IgraNaMe4ove
 {
     public class GameEngine
     {
-        public const int rowSize = 20;
+        public const int rowSize = 50;
         public const int colSize = 40;
         public const int wallsDencity = 200;
         public const int enemyCount = 10;
