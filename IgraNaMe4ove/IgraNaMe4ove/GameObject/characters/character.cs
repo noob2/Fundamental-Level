@@ -89,5 +89,26 @@ namespace IgraNaMe4ove.GameObject.characters
         {
             target.Health -= AttackDamage;
         }
+
+        public void Move(ConsoleKeyInfo keyPressed)
+        {
+            switch (keyPressed.Key)
+            {
+                case ConsoleKey.UpArrow:
+                    this.X = this.X - 1;
+                    break;
+                case ConsoleKey.DownArrow:
+                    this.X = this.X + 1;
+                    break;
+                case ConsoleKey.RightArrow:
+                    this.Y = this.Y + 1;
+                    break;
+                case ConsoleKey.LeftArrow:
+                    this.Y = this.Y - 1;
+                    break;
+                default:
+                    throw new ArgumentException("Invalid direction.", "direction");
+            }
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IgraNaMe4ove.Exceptions;
+using System;
 
 namespace IgraNaMe4ove.GameObject
 {
@@ -23,10 +24,11 @@ namespace IgraNaMe4ove.GameObject
             }
             set
             {
-                if (value < 0 && value < GameEngine.rowSize)
+                if (value < 0 && value < GameEngine.MapHeight)
                 {
-                    throw new ArgumentOutOfRangeException("X","X-position must be in the console !");
+                    throw new ObjectOutOfMapException("X-position must be in the map !");
                 }
+
                 this.x = value;
             }
         }
@@ -39,9 +41,9 @@ namespace IgraNaMe4ove.GameObject
             }
             set
             {
-                if (value < 0 && value < GameEngine.colSize)
+                if (value < 0 && value < GameEngine.MapWidth)
                 {
-                    throw new ArgumentOutOfRangeException("Y", "Y-position must be in the console !");
+                    throw new ObjectOutOfMapException("Y-position must be in the map !");
                 }
                 this.y = value;
             }

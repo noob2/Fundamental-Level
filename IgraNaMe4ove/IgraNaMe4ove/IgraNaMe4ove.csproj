@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\ObjectOutOfMapException.cs" />
     <Compile Include="GameEngine.cs" />
     <Compile Include="GameObject\characters\Archer.cs" />
     <Compile Include="GameObject\characters\character.cs" />
