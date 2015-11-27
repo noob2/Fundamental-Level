@@ -1,0 +1,51 @@
+﻿Which .NET data types are value types? Which types are reference types?
+
+value types - primitive data types, structures, enumerations;
+reference types - objects,string,char,arrays,pointers,dynamic types, classes, interfaces
+
+How do value and reference types differ when assigned to a variable?
+
+The values are stored in the stack memory, the reference types are stored in the heap memory, 
+and the variable contains only the adress of the heap memory block.
+
+How do value and reference types behave when passed as argument to a method?
+
+the value types pass the real value, the reference types pass the adress.
+this ca cause problems, when u try to change the value of the reference type.
+
+Where in memory are value types allocated? Where are reference types allocated?
+stack memory, heap pemory.
+
+What is the difference between mutating and setting (assigning) a variable? Give examples.
+
+when mutating, it changes the content in the heap memory block and when setting a variable,
+recieves new adress wich contains the new value.
+If you have 2 reference type variables, containig the same adress, any mutation will change the
+values of the both variables.The assigning will change only the variable you want.
+Ex:
+		Student pesho = new Student();
+        pesho.age = 100;
+        Student gosho = pesho;
+        gosho.age = 200;
+        Console.WriteLine(pesho.age); // Prints 200
+       
+        Number num1 = new Number();
+        num1.value = 100;
+        Number num2 = num1;
+        num2.value = 200;
+        Console.WriteLine(num1.value); // Prints 100
+
+What are the out and ref keywords used for? In what do they differ?
+
+passing a reference type to a method will change it only infide the method.
+if using the keyword REF will apply changes outside of the method.
+
+The ref modifier means that:
+
+The value is already set and
+The method can read and modify it.
+
+The out modifier means that:
+
+The Value isn't set and can't be read by the method until it is set.
+The method must set it before returning.

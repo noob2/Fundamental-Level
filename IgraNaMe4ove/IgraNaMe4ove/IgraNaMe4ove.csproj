@@ -43,21 +43,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\CommandAttribute.cs" />
+    <Compile Include="Attributes\EnemyAttribute.cs" />
+    <Compile Include="Attributes\ItemAttribute.cs" />
+    <Compile Include="Engine\Commands\CollectItemCommand.cs" />
+    <Compile Include="Engine\Commands\Command.cs" />
+    <Compile Include="Engine\Commands\ExecuteHelpCommand.cs" />
+    <Compile Include="Engine\Commands\MarkTargetAndAttackCommand.cs" />
+    <Compile Include="Engine\Commands\MoveDownCommand.cs" />
+    <Compile Include="Engine\Commands\MoveLeftCommand.cs" />
+    <Compile Include="Engine\Commands\MoveRightCommand.cs" />
+    <Compile Include="Engine\Commands\MoveUpComand.cs" />
+    <Compile Include="Engine\Commands\OpenInventoryCommand.cs" />
+    <Compile Include="Engine\Constants.cs" />
+    <Compile Include="Engine\Factories\CommandFactory.cs" />
+    <Compile Include="Engine\MapInitalizer.cs" />
+    <Compile Include="Exceptions\InvalidKeyException.cs" />
+    <Compile Include="Exceptions\ItemNotFoundException.cs" />
     <Compile Include="Exceptions\ObjectOutOfMapException.cs" />
-    <Compile Include="GameEngine.cs" />
-    <Compile Include="GameObject\characters\Archer.cs" />
-    <Compile Include="GameObject\characters\character.cs" />
-    <Compile Include="GameObject\characters\Mage.cs" />
-    <Compile Include="GameObject\characters\Warrior.cs" />
-    <Compile Include="GameObject\enemy\Enemy.cs" />
-    <Compile Include="GameObject\enemy\Wolf.cs" />
-    <Compile Include="GameObject\GameObject.cs" />
-    <Compile Include="GameObject\Wall.cs" />
+    <Compile Include="Exceptions\CollisionException.cs" />
+    <Compile Include="Engine\GameEngine.cs" />
+    <Compile Include="GameObjects\characters\Character.cs" />
+    <Compile Include="GameObjects\characters\CharacterRace.cs" />
+    <Compile Include="GameObjects\Enemies\Dragon.cs" />
+    <Compile Include="GameObjects\Enemies\Enemy.cs" />
+    <Compile Include="GameObjects\Enemies\Ork.cs" />
+    <Compile Include="GameObjects\Enemies\Wolf.cs" />
+    <Compile Include="GameObjects\GameObject.cs" />
+    <Compile Include="GameObjects\Items\HealthPotion.cs" />
+    <Compile Include="GameObjects\Items\Dopamine.cs" />
+    <Compile Include="GameObjects\Items\Item.cs" />
+    <Compile Include="GameObjects\Items\ManaPotion.cs" />
+    <Compile Include="GameObjects\Wall.cs" />
+    <Compile Include="Interfaces\IChampionAttackable.cs" />
+    <Compile Include="Interfaces\IController.cs" />
+    <Compile Include="Interfaces\IEnemyAttackable.cs" />
+    <Compile Include="Interfaces\ICollect.cs" />
+    <Compile Include="Interfaces\IDestroyable.cs" />
+    <Compile Include="Interfaces\IInputHandler.cs" />
+    <Compile Include="Interfaces\IMovable.cs" />
+    <Compile Include="Interfaces\IRenderer.cs" />
+    <Compile Include="Position.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInterface\ConsoleInputHandler.cs" />
+    <Compile Include="UserInterface\ConsoleRenderer.cs" />
+    <Compile Include="UserInterface\KeyboardController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="helpInfo.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

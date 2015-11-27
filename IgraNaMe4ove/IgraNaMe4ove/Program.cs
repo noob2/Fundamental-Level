@@ -1,16 +1,26 @@
-﻿using IgraNaMe4ove.GameObject.characters;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace IgraNaMe4ove
+﻿namespace IgraNaMe4ove
 {
-    class Program
+    using System;
+    using Engine;
+    using Engine.Factories;
+    using GameObjects.Characters;
+    using Interfaces;
+    using UserInterface;
+
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
-            GameEngine GameEngine = new GameEngine();
-            GameEngine.run();
+            Character player = new Character(new Position(0, 0), 'C', ConsoleColor.Yellow, 0, 0, 0, 0, CharacterRace.Ashe);
+            IRenderer renderer = new ConsoleRenderer();
+            IInputHandler inputHandler = new ConsoleInputHandler();
+            IController controller = new KeyboardController();
+            CommandFactory commandFactory = new CommandFactory();
+            GameEngine gameEngine = new GameEngine(player, renderer, inputHandler, controller, commandFactory);
+
+            Console.CursorVisible = false;
+
+            gameEngine.Run();
         }
     }
 }
