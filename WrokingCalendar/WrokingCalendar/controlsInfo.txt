@@ -1,0 +1,11 @@
+﻿all avaiable commands:
+----------------------------------------------------------------------------
+AddWorker [FirstName] [LastName] - adds new worker;
+Delete [FirstName] - deletes a worker;
+AddSalary [FirstName] [salary] - adds a salary to a worker;
+AddWorkingDays [FirstName] [1,2,5,6.....] - adds working days to the worker;
+RemoveWorkingDays [FirstName] [1,2,5,6.....] - removes working days to the worker;
+Export - exports workers graphics to file in the same directory;
+Worker [FirstName] - show worker status;
+AllWorkers - shows the status of all the workers;
+----------------------------------------------------------------------------
