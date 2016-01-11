@@ -7,6 +7,7 @@ namespace WrokingCalendar.Engine
 {
     public class WorkCalerndarEngine
     {
+        
         public readonly IRenderer Renderer;
         public readonly IInputHandler InputHandler;
         private readonly IList<Worker> workers = new List<Worker>(); 
