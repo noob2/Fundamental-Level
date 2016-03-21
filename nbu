@@ -1,0 +1,138 @@
+/*
+	This is short program, wich shows 
+	that it cannot be writen in read-only text file.
+
+	The program reads text file properly with [ifstream] object,
+	and tries to write a text inside read-only text file with [ofstream] object.
+*/
+
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+void readFile(const string fileName)
+{
+	string line;
+	ifstream myfile(fileName);
+	if (myfile.is_open())
+	{
+		while (getline(myfile, line))
+		{
+			cout << line << '\n';
+		}
+		cout << endl;
+		myfile.close();
+	}
+	//if error occurs...
+	else
+	{
+		cerr << "Unable to open " << fileName << endl << endl;
+	}
+}
+
+void writeOnFile(const string fileName, const string content)
+{
+	ofstream myfile;
+	myfile.open("example.txt");
+	if (myfile.is_open())
+	{
+		myfile << content;
+		myfile.close();
+	}
+	//if error occurs...
+	else
+	{
+		cerr << "Unable to write in " << fileName << endl << endl;
+	}
+}
+
+int main() {
+
+	const string fileName = "example.txt";
+	const string content = "new content for the file";
+
+
+	cout << "reading file - " << fileName <<  ":" << endl;
+	readFile(fileName);
+
+	cout << "writing inside file - " << fileName << ":" << endl;
+	writeOnFile(fileName, content);
+
+	cout << "reading file - " << fileName << ":" << endl;
+	readFile(fileName);
+
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+/*
+this program will implement strcpy() function.
+The program creates two strings, and copyes one string,
+and pastes it in the another with strcopy() standard function
+
+
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int main() {
+
+	char string1[] = "hello";
+
+	//string2 must have size >= than string1
+	const int string1Size = sizeof(string1);
+
+	char string2[string1Size] = "abcde";
+
+	cout << "before strcpy(string2, string1):" << endl;
+	cout << "string1:" << string1 << endl;
+	cout << "string2:" << string2 << endl;
+
+	//[string1] will be copyed inside [string2]
+	strncpy_s(string2, string1, string1Size);
+
+	cout << "after strcpy(string2, string1):" << endl;
+	cout << "string1:" << string1 << endl;
+	cout << "string2:" << string2 << endl;
+
+	char sentence[] = "copy n characters from here";
+
+	int n = 3;
+	//[string2] will now contain only the first [n] characters from [sentence]
+	strncpy_s(string2, sentence, n);
+	cout << "after strncpy_s(string2, sentence, n):" << endl;
+	cout << "string2:" << string2 << endl;
+	cout << 1 + 72203 % 25;
+	return 0;
+
+}
+
+*/
+
